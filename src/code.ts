@@ -31,3 +31,6 @@ figma.ui.onmessage = msg => {
     // keep running, which shows the cancel button at the bottom of the screen.
     figma.closePlugin()
 }
+
+const select0 = figma.currentPage.selection[0]
+console.log('select0', select0)

@@ -41,3 +41,8 @@ pnpm install
 ## 参考
 
 * [yingpengsha/figma-plugin-vite-react-template](https://github.com/yingpengsha/figma-plugin-vite-react-template)
+
+
+## TODO
+
+* 升级 `@figma/plugin-typings`

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useCallback } from 'react'
-import './app.less'
+import classes from './app.module.less'
 
 const App = () => {
     const textbox = useRef<HTMLInputElement>()
@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <div>
-            <h2 className="name">Rectangle Creator</h2>
+            <h2 className={classes.name}>Rectangle Creator</h2>
             <p>
                 Count: <input ref={countRef} />
             </p>
